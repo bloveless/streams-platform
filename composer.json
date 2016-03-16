@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "laravel/framework": "5.2.*",
+        "laravel/framework": "dev-master",
         "laravel/envoy": "1.0.*",
         "laravelcollective/html": "5.2.*",
         "doctrine/dbal": "2.5.*",
@@ -39,6 +39,12 @@
         "jenssegers/agent": "2.3.*",
         "asm89/twig-cache-extension": "1.0.*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/framework.git"
+        }
+    ],
     "require-dev": {
         "phpspec/phpspec": "~2.0",
         "benconstable/phpspec-laravel": "~1.0",
