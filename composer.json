@@ -10,7 +10,7 @@
     "require": {
         "laravel/framework": "dev-master",
         "laravel/envoy": "1.0.*",
-        "laravelcollective/html": "5.2.*",
+        "laravelcollective/html": "dev-5.2",
         "doctrine/dbal": "2.5.*",
         "intervention/image": "2.1.*",
         "twig/twig": "1.18.*",
@@ -43,6 +43,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravel/framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/LaravelCollective/html.git"
         }
     ],
     "require-dev": {
